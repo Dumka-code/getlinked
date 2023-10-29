@@ -46,8 +46,8 @@ function NavBar() {
                 <li><Link to="div6" smooth={true} duration={500} className="hover:text-sky-500 dark:hover:text-sky-400">Timeline</Link> </li>
                 <li><Link to="div2" smooth={true} duration={500} className="hover:text-sky-500 dark:hover:text-sky-400">Overview</Link></li>
                 <li><Link to="div5" smooth={true} duration={500} className="hover:text-sky-500 dark:hover:text-sky-400">FAQs</Link></li>
-                <li><a className="hover:text-sky-500 dark:hover:text-sky-400" href='/contact' >Contact</a></li>
-                <li><a className=""> <button className="rounded-md px-8 h-9 bg-gradient-to-r from-[#FE34B9] to-[#903AFF] ">Register</button> </a></li>
+                <li><a className="hover:text-sky-500 dark:hover:text-sky-400" href='/contact'>Contact</a></li>
+                <li><a className="" href='/register'> <button className="rounded-md px-8 h-9 bg-gradient-to-r from-[#FE34B9] to-[#903AFF]">Register</button> </a></li>
                 </ul>
                 </nav>
            </div></div>
@@ -70,7 +70,7 @@ function NavBar() {
                 <li><Link to="div2" smooth={true} duration={500} className="hover:text-sky-500 dark:hover:text-sky-400 text-base font-bold text-slate-400">Overview</Link></li>
                 <li><Link to="div5" smooth={true} duration={500} className="hover:text-sky-500 dark:hover:text-sky-400 text-base font-bold text-slate-400">FAQs</Link></li>
                 <li><a className="hover:text-sky-500 dark:hover:text-sky-400 text-base font-bold text-slate-400" href='/contact'>Contact</a></li>
-                <li><button className="rounded   my-6 px-8 h-9 bg-gradient-to-r from-[#FE34B9] to-[#903AFF] hover:bg-transparent">Register</button></li>
+                <li> <a className="" href='/register'> <button className="rounded   my-6 px-8 h-9 bg-gradient-to-r from-[#FE34B9] to-[#903AFF] hover:bg-transparent">Register</button> </a></li>
                 </ul>
   </div>
 </div>
