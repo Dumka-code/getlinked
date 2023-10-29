@@ -89,7 +89,7 @@ export default function Div5() {
   }, []);
   
     return (
-        <div className=" flex flex-col justify-center items-center text-white sectionz snap-center">
+        <div id="div5" className=" flex flex-col justify-center items-center text-white sectionz snap-center">
          <div className="grid grid-cols-1 md:grid-cols-2 gap-1 w-full"> 
         
            <section className="relative">    

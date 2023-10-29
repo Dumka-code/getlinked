@@ -24,11 +24,13 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.11.0",
+    "react-scroll": "^1.9.0",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
   },
   "devDependencies": {
     "@types/animejs": "^3.1.7",
-    "@types/locomotive-scroll": "^4.1.1"
+    "@types/locomotive-scroll": "^4.1.1",
+    "@types/react-scroll": "^1.8.9"
   }
 }

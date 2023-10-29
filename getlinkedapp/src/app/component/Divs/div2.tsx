@@ -7,7 +7,7 @@ export default function Div2() {
      
     return (
   
-        <div className=" flex flex-col justify-center items-center text-white snap-center">
+        <div id="div2" className=" flex flex-col justify-center items-center text-white snap-center">
     
         <div className="grid grid-cols-1 md:grid-cols-2 gap-1 w-full ">
        
@@ -15,7 +15,7 @@ export default function Div2() {
            <Image src='/The big idea.svg' className='w-80 lg:w-96 h-80 lg:h-96 mx-auto' alt='xx' width={0} height={0} />
            <Image src='/arrow.svg' className='w-10 lg:w-12 h-10 lg:h-12 absolute buttom-8 right-40 lg:right-30 lg:buttom-70' alt='xx' width={0} height={0} />
 
-          </section>
+          </section> 
 
           <section className="md:col-span-1 mt-6">
 

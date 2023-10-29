@@ -49,7 +49,7 @@ export default function Div6() {
    
   
     return (
-        <div className=" flex flex-col justify-center items-center text-white   snap-center">
+        <div id="div6" className=" flex flex-col justify-center items-center text-white   snap-center">
         
          
         <div className='relative text-center'> 

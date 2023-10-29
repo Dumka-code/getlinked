@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image'
+import  {Link} from 'react-scroll';
 import {AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai'
 import {BiLogoLinkedin, BiLogoFacebook, BiPhoneCall, BiLocationPlus} from 'react-icons/bi'
 
@@ -8,7 +9,7 @@ export default function Footer() {
      
     return (
   
-        <div className=" flex flex-col justify-center items-center text-white snap-center sectionz p-6">
+        <div  id="footer"  className=" flex flex-col justify-center items-center text-white  p-6">
     
         <div className="grid grid-cols-1 md:grid-cols-2 gap-1 w-full ">
         <div className="md:hidden relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-[#903AFF] before:dark:opacity-10 after:dark:from-[#903AFF] after:dark:via-[#903AFF] after:dark:opacity-40 before:lg:h-[660px] z-[-1]"></div>
@@ -34,10 +35,10 @@ export default function Footer() {
           <div className=''>
           <div className="text-[#D434FE] font-semibold">Useful links </div> 
           <ul className="list-none my-2 space-y-3 font-semibold">
-  <li>Overview</li>
-  <li>Timeline</li>
-  <li>FAQs</li>
-  <li>Register</li>
+  <li> <Link to="div2" smooth={true} duration={500}>Overview</Link></li>
+  <li><Link to="div6" smooth={true} duration={500}>Timeline</Link></li>
+  <li><Link to="div5" smooth={true} duration={500}>FAQs</Link></li>
+  <li><Link to="divless" smooth={true} duration={500}>Register</Link></li>
   <li className='text-[#D434FE] text-xs  space-x-2'>Follow Us   <AiOutlineInstagram className='inline'/> <AiOutlineTwitter className='inline'/> <BiLogoFacebook className='inline'/>  <BiLogoLinkedin className='inline'/>  </li>
   </ul>
   </div>

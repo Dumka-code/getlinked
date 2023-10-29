@@ -84,7 +84,7 @@ anime.timeline({loop: true, autoplay: true})
              c
            <Image src='/Creative.svg' className='w-14 h-14 absolute -top-9 left-2' alt='xx' width={0} height={0} />
 
-            </span>h</div> 
+            </span>h</div>
            </div>
 
            <div className='h-16  flex lg:justify-start justify-center items-center'> <div className="text-4xl lg:text-6xl font-clash"> <div className='ml3 inline'>Hackathon</div> <span className='inline text-[#D434FE]'> 1.0</span></div>
