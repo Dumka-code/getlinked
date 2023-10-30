@@ -23,7 +23,7 @@ export default function Div9() {
            <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-[#903AFF] before:dark:opacity-10 after:dark:from-[#903AFF] after:dark:via-[#903AFF] after:dark:opacity-40 before:lg:h-[660px] z-[-1]"></div>
            
            <div className='py-4'>
-           <p className='font-medium inline'>Below are our privacy & policy, which outline a lot of goodies. it's our aim to always take of our participant </p>
+           <p className='font-medium inline'>Below are our privacy & policy, which outline a lot of goodies. it&apos;s our aim to always take of our participant </p>
            </div>  
            
            <div className='p-12 border-2 border-[#D434FE] mt-12 backdrop-filter backdrop-blur-md bg-opacity-30'>

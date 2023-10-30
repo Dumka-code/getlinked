@@ -27,7 +27,7 @@ export default function Div2() {
            </div>
 
            <p className='py-4 font-medium'>
-           Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day: to shape the future. Whether you're a coding genius, a design maverick, or a concept wizard, you'll have the chance to transform your ideas into reality. Solving real-world problems, pushing the boundaries of technology, and creating solutions that can change the world, that's what we're all about!
+           Our tech hackathon is a melting pot of visionaries, and its purpose is as clear as day: to shape the future. Whether you re a coding genius, a design maverick, or a concept wizard, youll have the chance to transform your ideas into reality. Solving real-world problems, pushing the boundaries of technology, and creating solutions that can change the world, thats what were all about!
            </p>
             </div>
         </section>
